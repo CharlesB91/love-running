@@ -28,6 +28,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    padding: 5px;
 
 }
 
@@ -69,9 +70,37 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* ////// This ensures the background image dosent cover the txt logo and nav  */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 /* ////// Setting background image  */
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+/* ////// creates a level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+
+    }
+    to {
+transform: scale(1.1);
+    }
+
+}
+
+
+
+
