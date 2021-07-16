@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap');
 
+ /* ////// This sets all margin and padding to 0 so page will go right to the end  */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* ////// This is setting the font style and font weight as per google fonts with colour */
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -14,6 +16,7 @@ body {
 
 /* headings & Logo */
 
+/* ////// This is setting all elements to a font with all uppercase with letter spacing & colour */
 h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
@@ -21,8 +24,47 @@ h1, h2 {
     color: black;
 }
 
+/* ////// This is setting the text logo to float to the left so all the other elements will wrap around it */
 #logo {
     float: left;
     font-size: 280%;
 
+}
+
+/* Navigation */
+
+/* ////// font size and letter spacing inline with the letter logo */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    /* display: flex;
+    flex-direction: row-reverse */
+}
+
+/* ////// sets the same line height to txt logo and menu look alinged */
+#menu, #logo {
+    line-height: 75px;
+}
+
+/* ////// This is so the li items will move to the left of the page with bullet points removed and spacing on right */
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* ////// This is to remove the underline on the a elements */
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ////// This styles the a link when the cursor hovers over them */
+#menu a:hover {
+   border-top: 1px solid #3a3a3a; 
+}
+
+/* ////// This leaves a constant border under the home page to indicate this is the page they are on  */
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
