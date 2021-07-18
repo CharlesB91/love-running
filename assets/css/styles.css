@@ -29,6 +29,7 @@ h1, h2 {
     float: left;
     font-size: 280%;
     padding: 5px;
+    margin-left: 10px;
 
 }
 
@@ -123,6 +124,41 @@ transform: scale(1.1);
     right: 150px;
     position: absolute;
 }
+
+/* Club Ethos */
+
+
+/* ////// Setting the same height as the background image */
+#club-ethos {
+    height: 600px;
+}
+
+/* ////// Setting top padding and width a 3rd of the screen size positioned to the left */
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+/* ////// Setting top padding and width a 3rd of the screen size positioned to the right */
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: red;
+}
+
+/* ////// Setting top padding and width a 3rd of the screen size positioned in the center*/
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+
+
 
 
 
