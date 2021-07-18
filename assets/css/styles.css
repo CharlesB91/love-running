@@ -153,7 +153,6 @@ transform: scale(1.1);
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 .same {
@@ -186,6 +185,31 @@ transform: scale(1.1);
 /* ////// Further positioning paragraph to the right */
 .right-about-heading p {
     text-align: right;
+}
+
+/* ////// Setting h2 text to center, margin for spacing from top and bottom and font size */
+#welcome {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+/* ////// creating the container for the circle image and getting the width, height, border radius */
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+        
+}
+
+#circle-cover-bg {
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+
 }
 
 
