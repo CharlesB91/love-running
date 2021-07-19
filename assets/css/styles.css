@@ -242,19 +242,23 @@ transform: scale(1.1);
     color: white;
 }
 
+/* ////// Setting height for footer inline with rest of website */
 footer {
     height: 150px;
     
 }
 
+/* ////// alligning the items in the center */
 .social {
     text-align: center;
 }
 
+/* ////// setting the list items so they will appear inline  */
 .social > li {
     display: inline;
 }
 
+/* ////// setting the size of the font awsome icons with margin and padding for spacing */
 .social i {
     font-size: 180%;
     margin: 1%;
