@@ -266,6 +266,7 @@ footer {
     color: black
 }
 
+/* Setting this will ensure the photos remain under the header element with no gap with 4 photos */
 #photos {
     clear: both;
     line-height: 0;
@@ -273,9 +274,35 @@ footer {
     column-gap: 0px;
 }
 
+/* This is to ensure the images show their true width */
 #photos > img {
     width: 100%;
 }
+
+/* adding responsive design to club ethos section for any screens below 1200px */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
 
 
 
