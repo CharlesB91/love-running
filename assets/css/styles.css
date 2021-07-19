@@ -279,7 +279,7 @@ footer {
     width: 100%;
 }
 
-/* adding responsive design to club ethos section for any screens below 1200px */
+/* adding responsive design to club ethos section for any screens below 1200px (tablets) */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -302,6 +302,18 @@ footer {
         padding: 0;
     }
 }
+
+/* adding responsive design to club header section for any screens below 950px (mobile) */
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
 
 
 
