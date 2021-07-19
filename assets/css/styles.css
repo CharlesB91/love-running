@@ -301,6 +301,13 @@ footer {
         float: left;
         padding: 0;
     }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150%;
+        padding: 0;
+    }
 }
 
 /* adding responsive design to club header section for any screens below 950px (mobile) */
